@@ -10,7 +10,7 @@ spring:
     import: optional:classpath:application-secret.properties,optional:file:./application-secret.properties
 
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
+    url: ${SPRING_DATASOURCE_URL_RENTEX}
     username: ${SPRING_DATASOURCE_USERNAME}
     password: ${SPRING_DATASOURCE_PASSWORD}
     driver-class-name: org.mariadb.jdbc.Driver
@@ -93,7 +93,7 @@ file:
   upload-dir: ${FILE_UPLOAD_DIR:./uploads}
 
 app:
-  frontend-url: ${APP_FRONTEND_URL:https://d27o3825w6jlji.cloudfront.net}
+  frontend-url: ${APP_FRONTEND_URL:https://d3u2buhi4vu28q.cloudfront.net}
 
 # ===================================
 # JWT
